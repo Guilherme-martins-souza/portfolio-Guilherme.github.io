@@ -1,6 +1,6 @@
 :root {
 	--main-bg-color: #d7d7d7;
-	--secundary-bg-color: #F5F5F5;
+	--secundary-bg-color: #F9F9F9;
 }
 
 body{
@@ -40,7 +40,10 @@ header{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	padding: 20px 80px;
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 64px 100px;
 }
 
 .container-text-header{
@@ -49,12 +52,18 @@ header{
 }
 
 .texto-header-principal{
+	width: 90%;
+	font-weight: 700;
 	font-size: 52px;
-	padding-bottom: 10px;
+	line-height: 61px;
 }
 
 .texto-header-secundario{
-	font-size: 24px;
+	width: 70%;
+	padding-top: 20px;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
 }
 
 .pai-lista-header-principal{
@@ -71,20 +80,40 @@ header{
 .secao-sobremim{
 	background-color: var(--main-bg-color);
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-around;
 }
 
 .secao-sobremim h1{
-	font-size: 32px;
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 38px;
 }
 
 .secao-sobremim p{
-	font-size: 24px;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
+	width: 70%;
 }
 
 .container-sobremim{
 	display: flex;
 	flex-direction: column;
-	width: 60%;
-	padding: 20px 80px;
+	justify-content: center;
+	width: 85%;
+	height: 490px;
+}
+
+@media(max-width: 1024px) {
+	.texto-header-principal{
+		font-size: 22px;
+		line-height: 26px;
+	}
+
+	.texto-header-secundario{
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
 }
