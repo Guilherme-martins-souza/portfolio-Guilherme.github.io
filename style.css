@@ -1,10 +1,10 @@
 :root {
-	--main-bg-color: #d7d7d7;
-	--secundary-bg-color: #F9F9F9;
+	--main-bg-color: #EAF2FD;
+	--secundary-bg-color: #F5F5F5;
 }
 
 body{
-	background-color: var(--main-bg-color);
+	background-color: var(--secundary-bg-color);
 }
 
 header{
@@ -43,7 +43,7 @@ header{
 	width: 85%;
 	margin-right: auto;
 	margin-left: auto;
-	padding: 64px 100px;
+	padding: 40px 0;
 }
 
 .container-text-header{
@@ -87,13 +87,14 @@ header{
 	font-weight: 700;
 	font-size: 42px;
 	line-height: 38px;
+	padding-bottom: 10px;
 }
 
 .secao-sobremim p{
 	font-weight: 400;
 	font-size: 22px;
 	line-height: 26px;
-	width: 70%;
+	width: 62%;
 }
 
 .container-sobremim{
@@ -101,10 +102,59 @@ header{
 	flex-direction: column;
 	justify-content: center;
 	width: 85%;
-	height: 490px;
 }
 
-@media(max-width: 1024px) {
+.secao-hard-skills, .secao-soft-skills, .secao-hoobies-skills{
+	background-color: var(--secundary-bg-color);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px 0 0;
+}
+
+.secao-hoobies-skills{
+	padding-bottom: 110px;
+}
+
+.h1-secao-skills{
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	margin-bottom: 41px;
+}
+
+.cotainer-items-secao-skills{
+	display: flex;
+	width: 85%;
+}
+
+.div-secao-skills{
+	background: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+	flex-grow: 1;
+	width: 176px;
+	height: 174px;
+	margin-right: 1.333%;
+}
+
+.div-secao-skills:first-child{
+	margin-left: 0;
+}
+
+.div-secao-skills:last-child{
+	margin-right: 0;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*@media(max-width: 1024px) {
 	.texto-header-principal{
 		font-size: 22px;
 		line-height: 26px;
@@ -116,4 +166,4 @@ header{
 		line-height: 19px;
 	}
 
-}
+}*/
