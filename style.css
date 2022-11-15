@@ -141,18 +141,23 @@ header{
 .cotainer-items-secao-skills, .cotainer-items-secao-hoobies{
 	display: flex;
 	width: 85%;
+	flex-wrap: wrap;
 }
 
 .div-secao-skills, .div-secao-hoobies{
 	background: #FFFFFF;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-end;
+	align-items: center;
+	justify-content: center;
 	flex-grow: 1;
 	width: 176px;
 	height: 174px;
 	margin-right: 1.333%;
+}
+
+.div-secao-skills p{
+	
 }
 
 .div-secao-skills:first-child, .div-secao-hoobies:first-child{
