@@ -305,16 +305,25 @@ header{
 .form-contato{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	border: 4px solid #107fdf;
 }
 
 .text-form{
-	margin: 2px;
-	padding: 5px;
+	width: 100%;
+	margin: 10px;
+	padding: 15px;
+
+}
+
+.text-form h1{
+	margin: 0;
 }
 
 .form-contato textarea{
 	resize: none;
-	width: 656px;
+	width: 100%;
 	height: 133px;
 }
 
