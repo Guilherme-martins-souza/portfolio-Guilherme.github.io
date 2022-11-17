@@ -258,6 +258,11 @@ header{
 #div-texto-projetos{
 	line-height: 38px;
 }
+#div-texto-projetos h1{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 40px;
+}
 
 #div-texto-projetos:nth-child(2n-1){
 	margin-right: 40px;
@@ -274,10 +279,43 @@ header{
 .btn-rep, .btn-demo{
 	width: 160px;
 	height: 40px;
+	font-size: 14px;
+	border: 2px solid #107fdf;
+	background-color: var(--secundary-bg-color);
+	transition: all 0.3s;
 }
 
 .btn-rep{
 	margin: 0px 4%;
+}
+
+.btn-rep:hover, .btn-demo:hover{
+	background-color: #107fdf;
+	color: var(--main-bg-color);
+}
+
+.secao-contato{
+	background-color: var(--secundary-bg-color);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px 0 40px 0;
+}
+
+.form-contato{
+	display: flex;
+	flex-direction: column;
+}
+
+.text-form{
+	margin: 2px;
+	padding: 5px;
+}
+
+.form-contato textarea{
+	resize: none;
+	width: 656px;
+	height: 133px;
 }
 
 footer{
