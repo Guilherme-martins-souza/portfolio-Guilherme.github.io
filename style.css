@@ -94,14 +94,14 @@ header{
 
 .container-text-header{
 	flex-wrap: wrap;
-	width: 90%;
+	width: 80%;
 }
 
 .texto-header-principal{
-	width: 90%;
 	font-weight: 700;
 	font-size: 52px;
 	line-height: 61px;
+	text-align: justify;
 }
 
 .texto-header-secundario{
@@ -110,6 +110,7 @@ header{
 	font-weight: 400;
 	font-size: 22px;
 	line-height: 26px;
+	text-align: justify;
 }
 
 .pai-lista-header-principal{
@@ -142,6 +143,7 @@ header{
 	font-size: 22px;
 	line-height: 26px;
 	width: 62%;
+	text-align: justify;
 }
 
 .container-sobremim{

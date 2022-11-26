@@ -1,5 +1,3 @@
-alert("arroz");
-
 const topo = document.querySelector(".scrollTop");
 
 window.addEventListener("scroll", () => {
