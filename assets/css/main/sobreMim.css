@@ -1,0 +1,29 @@
+.secao-sobremim{
+	background-color: var(--secundary-bg-color);
+	display: flex;
+	justify-content: space-around;
+}
+
+.container-sobremim{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 85%;
+	padding: 75px 0 75px;
+}
+
+
+.secao-sobremim h1{
+	font-size: 42px;
+	line-height: 38px;
+	padding-bottom: 10px;
+	text-shadow: 0px 1px 1px black;
+}
+
+.secao-sobremim p{
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
+	width: 62%;
+	text-align: justify;
+}

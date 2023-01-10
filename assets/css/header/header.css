@@ -1,0 +1,78 @@
+.header-nav{
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nome-header{
+	display: flex;
+}
+
+.nome-header img{
+	margin-right: 8px;
+	height: 16.5px; 
+}
+
+.nome-header h1{
+	font-size: 16.5px;
+}
+
+.pai-header-nav-lista{
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+}
+
+.item-header-nav-lista a, .item-lista-header-principal a{
+	text-decoration: none;
+	color: black;
+	font-size: 16.5px;
+	transition: 250ms;
+}
+
+.item-header-nav-lista a:hover, .item-lista-header-principal a:hover{
+	color: #2A7AE4;
+}
+
+.header-principal{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 40px 0;
+}
+
+.container-text-header{
+	flex-wrap: wrap;
+	width: 80%;
+}
+
+.texto-header-principal{
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 61px;
+	text-align: justify;
+}
+
+.texto-header-secundario{
+	width: 70%;
+	padding-top: 20px;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
+	text-align: justify;
+}
+
+.pai-lista-header-principal{
+	display: flex;
+	width: 70%;
+	padding-top: 50px;
+	justify-content: space-around;
+}
+
+.imagem-header img{
+	background: black;
+	border-radius: 50px 10px 50px 10px;
+}
