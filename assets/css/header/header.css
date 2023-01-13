@@ -1,11 +1,17 @@
-.header-nav{
-	padding: 20px;
+.section-nav{
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+}
+
+.header-nav{
+	display: flex;
+	width: 85%;
+	justify-content: space-between;
 }
 
 .nome-header{
 	display: flex;
+	width: 50%;
 }
 
 .nome-header img{
@@ -34,6 +40,8 @@
 	color: #2A7AE4;
 }
 
+
+/* a partir daqui começa o header principal */
 .header-principal{
 	display: flex;
 	justify-content: space-around;
@@ -41,7 +49,6 @@
 	width: 85%;
 	margin-right: auto;
 	margin-left: auto;
-	padding: 40px 0;
 }
 
 .container-text-header{
