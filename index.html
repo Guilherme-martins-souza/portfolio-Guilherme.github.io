@@ -17,9 +17,9 @@
 	</head>
 
 	<body>
-		<header>
+		<header id="inicio">
 			<section class="section-nav">
-				<nav class="header-nav" id="inicio">
+				<nav class="header-nav">
 					<div class="nome-header">
 						<img src="./assets/img/vector.png">
 						<h1>Guilherme Martins Souza</h1>
@@ -207,28 +207,32 @@
 			<section class="secao-contato" id="contato">
 				<h1 class="h1-secao-titulos">Contato</h1>
 
-				<form  class="form-contato" >
-					<p>Quer entrar em contato comigo?<br>Preencha o Formulário a baixo e entrarei em contato em até 8horas</p>
+				<form action="https://api.staticforms.xyz/submit" method="post"  class="form-contato" >
+					<p>Quer entrar em contato comigo?</p>
+					<br>
+					<p>Preencha o Formulário a baixo e entrarei em contato, normalmente respondo em até 2 horas</p>
+
+					<input type="hidden" name="accessKey" value="6264ebd4-5dd6-4fc5-b06e-3c8a82a6234b">
 
 					<div class="input-container-form">
 						<label class="label-form" for="nome">Nome</label>
-						<input type="text" id="nome" class="text-form" placeholder="Nome" required>
+						<input type="text" id="nome" name="name" class="text-form" placeholder="Nome" required>
 					</div>
 
 					<div class="input-container-form">
 						<label class="label-form" for="email">Email</label>
-						<input type="email" id="email" class="text-form" placeholder="Email" required>
+						<input type="email" id="email" name="email" class="text-form" placeholder="Email" required>
 					</div>
 
 					<div class="input-container-form">
 						<label class="label-form" for="assunto">Assunto</label>
-						<input type="text" id="assunto" class="text-form" placeholder="Assunto" required minlength="4">
+						<input type="text" id="assunto" name="subject" class="text-form" placeholder="Assunto" required minlength="4">
 					</div>
 					
 					<div class="input-container-form">
 						<label class="label-form" for="mensagem">Mensagem</label>
-						<textarea type="text" placeholder="Mensagem" class="text-form" required></textarea>
-					</div>	
+						<textarea type="text" name="message" placeholder="Mensagem" class="text-form" required></textarea>
+					</div>
 					
 					<button type="submit" class="btn-demo">Enviar</button>
 				</form> 
