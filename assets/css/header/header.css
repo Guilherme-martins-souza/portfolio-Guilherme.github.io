@@ -1,3 +1,4 @@
+/* Seção de navegação */
 .section-nav{
 	display: flex;
 	justify-content: center;
@@ -82,4 +83,18 @@
 .imagem-header img{
 	background: black;
 	border-radius: 50px 10px 50px 10px;
+}
+
+/* Responsivo Laptop*/
+
+@media screen and (max-width: 1024px){
+	.texto-header-principal{
+		font-size: 36px;
+		line-height: 35px;
+	}
+
+	.texto-header-secundario{
+		width: 100%;
+		font-size: 20px;
+	}
 }

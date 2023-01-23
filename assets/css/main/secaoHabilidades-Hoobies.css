@@ -6,7 +6,7 @@
 
 .cotainer-items-secao-skills, .cotainer-items-secao-hoobies{
 	display: flex;
-	width: 85%;
+	width: calc(85% + 2.666%);
 	flex-wrap: wrap;
 }
 
@@ -19,13 +19,5 @@
 	flex-grow: 1;
 	width: 176px;
 	height: 174px;
-	margin-right: 1.333%;
-}
-
-.div-secao-skills:first-child, .div-secao-hoobies:first-child{
-	margin-left: 0;
-}
-
-.div-secao-skills:last-child, .div-secao-hoobies:last-child{
-	margin-right: 0;
+	margin: 1.333%;
 }
