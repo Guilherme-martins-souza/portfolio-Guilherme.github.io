@@ -85,6 +85,16 @@
 	border-radius: 50px 10px 50px 10px;
 }
 
+
+/* Responsivo Laptop L*/
+
+@media screen and (max-width: 1440px){
+	.texto-header-principal{
+		font-size: 48px;
+	}
+
+}
+
 /* Responsivo Laptop*/
 
 @media screen and (max-width: 1024px){
@@ -96,5 +106,41 @@
 	.texto-header-secundario{
 		width: 100%;
 		font-size: 20px;
+	}
+}
+
+/* Reponsivo para tablet ou menores */
+@media screen and (max-width: 900px){
+	/* navegação */
+	.section-nav{
+		padding-bottom: 0;
+	}
+
+	.header-nav{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.nome-header{
+		width: auto;
+		margin-bottom: 1rem;
+	}
+
+	.pai-header-nav-lista{
+		width: 100%;
+	}
+
+	/* header principal */
+	.imagem-header{
+		display: none;
+	}
+
+	.container-text-header{
+		width: 100%;
+	}
+
+	.pai-lista-header-principal{
+		width: 100%;
+		justify-content: space-around;
 	}
 }
