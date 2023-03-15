@@ -12,7 +12,7 @@
 
 .nome-header{
 	display: flex;
-	width: 50%;
+	width: 32%;
 }
 
 .nome-header img{
@@ -27,7 +27,7 @@
 .pai-header-nav-lista{
 	display: flex;
 	justify-content: space-between;
-	width: 50%;
+	width: 68%;
 }
 
 .item-header-nav-lista a, .item-lista-header-principal a{
@@ -53,14 +53,16 @@
 }
 
 .container-text-header{
-	width: 80%;
+	width: 82%;
 }
 
 .texto-header-principal{
 	font-weight: 700;
-	font-size: 52px;
-	line-height: 61px;
-	/* text-align: justify; */
+	font-size: clamp(1.6em , 2.3vw, 4em);
+	word-spacing: -5px;
+	line-height: 1em; 
+	text-align: justify;
+	hyphens: auto;
 }
 
 .texto-header-secundario{
@@ -74,7 +76,7 @@
 
 .pai-lista-header-principal{
 	display: flex;
-	width: 70%;
+	width: 80%;
 	padding-top: 50px;
 	justify-content: space-around;
 }
@@ -88,23 +90,27 @@
 /* Responsivo Laptop L*/
 
 @media screen and (max-width: 1440px){
-	.texto-header-principal{
+	/* .texto-header-principal{
 		font-size: 48px;
-	}
+	} */
 
 }
 
 /* Responsivo Laptop*/
 
 @media screen and (max-width: 1024px){
-	.texto-header-principal{
+	/* .texto-header-principal{
 		font-size: 36px;
 		line-height: 35px;
-	}
+	} */
 
 	.texto-header-secundario{
 		width: 100%;
 		font-size: 20px;
+	}
+
+	.pai-lista-header-principal{
+		justify-content: space-between;
 	}
 }
 
@@ -140,6 +146,12 @@
 
 	.pai-lista-header-principal{
 		width: 100%;
-		justify-content: space-around;
+	}
+}
+
+@media screen and (max-width: 600px){
+
+	.pai-header-nav-lista{
+		display: none;
 	}
 }
