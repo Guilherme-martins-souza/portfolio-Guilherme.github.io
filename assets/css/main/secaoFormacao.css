@@ -51,6 +51,13 @@
 	line-height: 22px;
 }
 
+@media screen and (max-width: 1140px) {
+
+	.cotainer-items-secao-formacao{
+		flex-direction: column;
+	}
+}
+
 @media screen and (max-width: 940px) {
 	.item-formacao{
 		min-width: 316px;
@@ -58,9 +65,6 @@
 }
 
 @media screen and (max-width: 755px) {
-	.cotainer-items-secao-formacao{
-		flex-direction: column;
-	}
 
 	.item-formacao p {
 		margin-bottom: 1rem;
@@ -70,3 +74,16 @@
 		margin-bottom: 0;
 	}
 }
+
+@media screen and (max-width: 425px) {
+	.item-formacao{
+		min-width: 0;
+	}
+
+	.imagem-container{
+		width: 100vw;
+	}
+
+}
+
+

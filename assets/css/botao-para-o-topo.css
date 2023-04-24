@@ -10,13 +10,14 @@
 	align-items: center;
 	justify-content: center;
 	position: fixed;
-	right: 50px;
-	bottom: 50px;
+	right: 2%;
+	top: 50px;
 	z-index: 999;
 	cursor: pointer;
 	opacity: 0;
 	pointer-events: none;
 	transition: all .8s;
+	box-shadow: 0px 4px 16px black;
 }
 
 .scrollTop.active{
@@ -28,4 +29,9 @@
 .scrollTop img{
 	width: 100%;
 	transform: rotate(-90deg);
+}
+
+
+@media screen and (max-width: 768px){
+
 }

@@ -90,19 +90,12 @@
 /* Responsivo Laptop L*/
 
 @media screen and (max-width: 1440px){
-	/* .texto-header-principal{
-		font-size: 48px;
-	} */
 
 }
 
 /* Responsivo Laptop*/
 
 @media screen and (max-width: 1024px){
-	/* .texto-header-principal{
-		font-size: 36px;
-		line-height: 35px;
-	} */
 
 	.texto-header-secundario{
 		width: 100%;
